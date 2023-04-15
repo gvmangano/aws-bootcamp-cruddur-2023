@@ -1,5 +1,5 @@
 {
-    "cluster": "cruddur",
+    "cluster": "cruddur2",
     "launchType": "FARGATE",
     "desiredCount": 1,
     "enableECSManagedTags": true,
@@ -32,7 +32,7 @@
     "taskDefinition": "backend-flask",
     "serviceConnectConfiguration": {
       "enabled": true,
-      "namespace": "cruddur",
+      "namespace": "cruddur2",
       "services": [
         {
           "portName": "backend-flask",
